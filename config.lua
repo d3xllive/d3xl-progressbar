@@ -9,7 +9,7 @@ Config = {}
 Config.Position = "center-bottom"
 
 -- Accent Colors
-Config.Color = "#36FF9F" -- tgiann Neon Mint
+Config.Color = "#36FF9F" --  Neon Mint
 
 -- Sound Effect (true = enabled subtle tick sound, false = silent)
 Config.EnableSound = true
