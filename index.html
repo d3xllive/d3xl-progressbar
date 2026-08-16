@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3XL SCRIPTS • Progress Bar Engine V1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Progress Bar Component - Exact 1-to-1 Reference Match -->
+    <div class="pb-wrapper center-bottom" id="pbWrapper">
+        <div class="hud-pb-wrapper">
+            <div class="hud-pb-header">
+                <span id="pbLabel">LOADING</span>
+                <span class="pct" id="pbPercent">0%</span>
+            </div>
+            <div class="hud-pb-track-container">
+                <div class="top-extension-line"></div>
+                <div class="hud-pb-segments-track" id="pbSegmentsTrack">
+                    <!-- 15 Segment Blocks generated dynamically via app.js -->
+                </div>
+                <div class="bottom-extension-line"></div>
+            </div>
+            <div class="pb-cancel-hint" id="pbCancelHint" style="display: none;">
+                İPTAL ETMEK İÇİN <key>X</key> BASIN
+            </div>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
